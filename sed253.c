@@ -31,11 +31,16 @@
 #include "substitute.h"
 #include "delete.h"
 
+int exitStatus =1;
+
 //-----------------------------------------------------------------------------
 // main -- the main function
 //-----------------------------------------------------------------------------
 int main(int argc, char **argv) {
 
+  if(argc==1){
+    
+  }
 
   return 0;
 }
